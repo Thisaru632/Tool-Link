@@ -34,7 +34,7 @@ function App() {
       <Routes>
         {/* Auth Routes */}
         <Route element={<AuthLayout />}>
-          <Route path="/" element={<Navigate to="/login" replace />} />
+          <Route path="/" element={<Navigate to="/admin/dashboard" replace />} />
           <Route path="/login" element={<Login />} />
         </Route>
 
